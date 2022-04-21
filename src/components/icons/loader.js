@@ -18,7 +18,7 @@ const IconLoader = () => (
                   L 11, 72
                   L 50, 95
                   L 89, 73
-                  L 89, 28 z"
+                  L 89, 28 z"</path>
       />
     </g>
   </svg>
