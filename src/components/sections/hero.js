@@ -30,7 +30,7 @@ const StyledHeroSection = styled.section`
 
   h3 {
     margin-top: 10px;
-    color: var(--slate);
+    color: #ffffff;
     line-height: 0.9;
   }
 
@@ -59,18 +59,16 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Samuel S.</h2>;
-  const three = <h3 className="big-heading">I create software.</h3>;
+  const two = <h2 className="big-heading">Samuel</h2>;
+  const three = <h3 className="big-heading">I'm a low-level engineer.</h3>;
   const four = (
     <>
       <p>
-        I’m a young software engineer specializing in programming complicated software.
-        Currently, I'm just beginning to learn more high-level languages. I've created
-        some interesting software, and am trying to create more!
+        I’m a young software engineer specializing in programming complicated software. I prefer to
+        work with low-level fields such as OSDev, driver development, etc.
       </p>
     </>
   );
-  
 
   const items = [one, two, three, four];
 
